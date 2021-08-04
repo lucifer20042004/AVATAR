@@ -2804,7 +2804,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '(YOUTUBE BOT),url="t.me/Ssociial_bot"}},
+{{text = '(YOUTUBE BOT)',url="t.me/Ssociial_bot"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sssstaaar/8&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -14537,7 +14537,7 @@ local Teext =[[
 🕸الفيديو
 🕸الانلاين
 🕸الدردشه
-•═════•| ☩𝔸𝕍𝔸𝕋𝔸ℝ ☩ |•═════•
+•═════•| ☩𝔸𝕍??𝕋𝔸ℝ ☩ |•═════•
 🕸التوجيه
 🕸الاغاني
 🕸الصوت
@@ -14870,7 +14870,7 @@ local Teext =[[
 🕸تفعيل الاشتراك الاجباري
 🕸مسح رساله الاشتراك
 🕸تغير رساله الاشتراك
-🕸تغير الاشتراك
+??تغير الاشتراك
 •═════•| ☩𝔸𝕍𝔸𝕋𝔸ℝ ☩ |•═════•
 🕸الاحصائيات
 🕸المشتركين
