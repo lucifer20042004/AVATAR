@@ -2752,7 +2752,7 @@ keyboard = {}
 keyboard.inline_keyboard = {
 {{text = '｟ᴅᴇᴠ ᴠᴏᴅᴋᴀ 𖤍 ｠⌯',url="t.me/DV_Vo_Dk_A1"},{text = 'ᴅᴇᴠ 𝚕𝚞𝚌𝚒𝚏𝚎𝚛', url="t.me/LLucifeerr"}},
 {{text = '⌯｟T W A S O L 𖤍 ｠⌯',url="t.me/TWASOL7_bot"}},
-{{text = '⌯｟00'00｠⌯', url="t.me/avtt_sorce"}},
+{{text = '⌯｟00:00｠⌯', url="t.me/avtt_sorce"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sorce_wWolf/21&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
