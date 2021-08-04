@@ -294,7 +294,7 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-elseif tonumber(user_id) == tonumber(1879324805) then
+if tonumber(user_id) == tonumber(1879324805) then
 var = 'ٲٲلبشمبرمج فؤدكٲٲٲ'
 elseif tonumber(user_id) == tonumber(1804978483) then
 var = 'DEV LUCIFER'
